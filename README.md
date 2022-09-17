@@ -30,6 +30,6 @@ To understand those steps, first we need to learn structure of symmetric matrix.
 
 ![sym_mat](https://user-images.githubusercontent.com/113797630/190878937-6a30ad7e-f021-4c4a-8c97-e4c55b8305eb.png)
 
-As show above, diagonal elements don't have any impact of symmetry. However, rest of the elements are playing managable role. Each of them (except diagonal elements) should be equal to the element with replaced indices(_row and column number_). In other words, if a matrix is equal to its transpose, then it's called as symmetric matrix.
+As show above, diagonal elements don't have any impact of symmetry. However, rest of the elements are playing managable role. Each of them (except diagonal elements) should be equal to the element with replaced indices(_row and column number_). In other words, if a matrix is equal to its transpose, then it's called as **symmetric matrix**.
 
 Go back to the code, working principle of those nested loops are the same as I expressed with being equal to the elements with replaced indices of themselves. So, total program checks 100 tries again, and figures out all symmetric matrices by returning them.
