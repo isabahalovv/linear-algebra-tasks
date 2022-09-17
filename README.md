@@ -11,4 +11,4 @@ So, what is the purpose of using **for** loop? I gave period of 100(_this number
 
 ![check_ortho_2](https://user-images.githubusercontent.com/113797630/190877842-3cfaaa1b-3340-478f-9c19-96e68332ee6f.png)
 
-Our **is_ortho** function firstly finds out inverse and transpose of the generated function(_it is repeated for each generation out of 100 period_). As a last step, inside of **if** and **else** conditions, equality of those values(_inverse_ and _transpose_) is checked and is returned as result to the first function. So, if any orthogonal matrix exists, that will be returned with 'Yes' printing.
+Our **is_ortho** function firstly finds out inverse and transpose of the generated function(_it is repeated for each generation out of 100 periods_). As a last step, inside of **if** and **else** conditions, equality of those values(_inverse_ and _transpose_) is checked and is returned as result to the first function. So, if any orthogonal matrix exists, that will be returned with 'Yes' printing.
