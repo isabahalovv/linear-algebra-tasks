@@ -18,7 +18,7 @@ So, what is the purpose of using **for** loop? I gave period of 100(_this number
 Function **is_ortho** firstly finds out inverse and transpose of the generated function(_it is repeated for each generation out of 100 periods_). As a last step, inside of **if** and **else** conditions, equality of those values(_inverse_ and _transpose_) is checked and is returned as result to the first function. So, if any orthogonal matrix exists, that will be returned with __'Yes'__ printing.
 
 ---
-### Task  2 : Write a function which accepts a matrix as input with any size (3x3 or more) and should check existence of symmetric matrix of a matrix which has been made using elements of original matrix with the size of 3x3. Then it should return that symmetric matrix as final result
+### Task  2 : Write a function which accepts a matrix as input with any size (3x3 or more) and should check existence of symmetric matrix of a matrix which has been made using elements of original matrix with the size of 3x3. Then it should return that symmetric matrix as a final result.
 ---
 ![sym_1](https://user-images.githubusercontent.com/113797630/190878613-30e11ae2-3bce-45bc-a751-c321ff3a2267.png)
 
